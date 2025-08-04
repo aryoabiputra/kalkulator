@@ -13,5 +13,7 @@ function hasil(){
     }
     catch{
         alert("Maaf, ada kesalahan dalam perhitungan Anda");
+        document.getElementById("display").value = "";
     }
+
 }
